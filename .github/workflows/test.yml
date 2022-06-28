@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check 1
-        run: echo "status check run from parent repo"
+        run: echo "status check run from forked repo"
