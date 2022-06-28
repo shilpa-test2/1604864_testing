@@ -1,0 +1,11 @@
+name: Security scanner
+
+on: [push]
+
+jobs:
+  security:
+    name: test check
+    runs-on: ubuntu-latest
+    steps:
+      - name: check 1
+        run: echo "status check run from parent repo"
